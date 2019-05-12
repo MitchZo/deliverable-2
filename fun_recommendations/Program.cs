@@ -24,7 +24,7 @@ namespace Fun_Recommendations
                     var response = Console.ReadLine();
                     activityType = int.Parse(response);
 
-                    if (activityType > 4)
+                    if (activityType > 4 || activityType < 1)
                         Console.WriteLine("Please enter a number within range.");
                 }
                 catch
@@ -37,16 +37,18 @@ namespace Fun_Recommendations
             string activityRecommendation = activityOptions[activityType - 1];
 
 
-            string transportationMethod;
             int? peopleAttending = null;
 
             while (peopleAttending == null || peopleAttending < 0)
             {
                 try
                 {
-                    Console.WriteLine($@"How many people are you expecting to participate?");
+                    Console.WriteLine($@"How many people are you expecting to participate with you?");
                     var response = Console.ReadLine();
                     peopleAttending = int.Parse(response);
+
+                    if (peopleAttending < 0)
+                        Console.WriteLine("Please don't include negative people in your calculation.");
                 }
                 catch
                 {
@@ -54,19 +56,24 @@ namespace Fun_Recommendations
                     peopleAttending = null;
                 }
             }
+            string transportationType = "unassigned";
+
             if (peopleAttending == 0)
-                transportationMethod = "sneakers";
+                transportationType = "sneakers";
 
             if (peopleAttending > 0 && peopleAttending < 5)
-                transportationMethod = "a sedan";
+                transportationType = "a sedan";
 
             if (peopleAttending > 4 && peopleAttending < 10)
-                transportationMethod = "a Volkswagon bus";
+                transportationType = "a Volkswagon bus";
 
-            else if (peopleAttending > 10)
-                transportationMethod = "an airplane";
+            if (peopleAttending > 10 && peopleAttending < 329)
+                transportationType = "an airplane";
 
-            Console.WriteLine("looks like you're going to want to go {0} in {1}. Have fun! Goodbye User.", activityRecommendation, transportationMethod);
+            else if (peopleAttending > 329)
+                transportationType = "multiple airplanes";
+
+            Console.WriteLine("looks like you're going to want to go {0} via {1}. Have fun! Goodbye User.", activityRecommendation, transportationType);
         }
     }
 }
