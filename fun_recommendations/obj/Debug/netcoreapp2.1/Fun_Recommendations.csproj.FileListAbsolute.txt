@@ -1,0 +1,11 @@
+C:\Users\outvi\Documents\Unit_1\Deliverable_2\Fun_Recommendations\bin\Debug\netcoreapp2.1\Fun_Recommendations.deps.json
+C:\Users\outvi\Documents\Unit_1\Deliverable_2\Fun_Recommendations\bin\Debug\netcoreapp2.1\Fun_Recommendations.runtimeconfig.json
+C:\Users\outvi\Documents\Unit_1\Deliverable_2\Fun_Recommendations\bin\Debug\netcoreapp2.1\Fun_Recommendations.runtimeconfig.dev.json
+C:\Users\outvi\Documents\Unit_1\Deliverable_2\Fun_Recommendations\bin\Debug\netcoreapp2.1\Fun_Recommendations.dll
+C:\Users\outvi\Documents\Unit_1\Deliverable_2\Fun_Recommendations\bin\Debug\netcoreapp2.1\Fun_Recommendations.pdb
+C:\Users\outvi\Documents\Unit_1\Deliverable_2\Fun_Recommendations\obj\Debug\netcoreapp2.1\Fun_Recommendations.csprojAssemblyReference.cache
+C:\Users\outvi\Documents\Unit_1\Deliverable_2\Fun_Recommendations\obj\Debug\netcoreapp2.1\Fun_Recommendations.csproj.CoreCompileInputs.cache
+C:\Users\outvi\Documents\Unit_1\Deliverable_2\Fun_Recommendations\obj\Debug\netcoreapp2.1\Fun_Recommendations.AssemblyInfoInputs.cache
+C:\Users\outvi\Documents\Unit_1\Deliverable_2\Fun_Recommendations\obj\Debug\netcoreapp2.1\Fun_Recommendations.AssemblyInfo.cs
+C:\Users\outvi\Documents\Unit_1\Deliverable_2\Fun_Recommendations\obj\Debug\netcoreapp2.1\Fun_Recommendations.dll
+C:\Users\outvi\Documents\Unit_1\Deliverable_2\Fun_Recommendations\obj\Debug\netcoreapp2.1\Fun_Recommendations.pdb
