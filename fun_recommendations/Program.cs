@@ -71,7 +71,11 @@ namespace Fun_Recommendations
                 transportationType = "an airplane";
 
             else if (peopleAttending > 329)
-                transportationType = "multiple airplanes";
+            {
+                double numberOfPlanes = 0;
+                numberOfPlanes = (double)peopleAttending / 329;
+                transportationType = $@"{Math.Ceiling(numberOfPlanes)} airplanes";
+            }
 
             Console.WriteLine("looks like you're going to want to go {0} via {1}. Have fun! Goodbye User.", activityRecommendation, transportationType);
         }
